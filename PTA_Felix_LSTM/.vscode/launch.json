@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "00 - Verifikasi",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/vscode_steps/00_verifikasi.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "01 - Diagnosis data",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/vscode_steps/01_diagnosis_data.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "02 - Optuna satu trial",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/vscode_steps/02_optuna_satu_trial.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "03 - Latih dan evaluasi",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/vscode_steps/03_latih_dan_evaluasi.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "04 - Lihat hasil",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/vscode_steps/04_lihat_hasil.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+Profil smoke; hasil: C:\Users\User\OneDrive\Dokumen\ChatGPT\PTAFELIX\results\smoke
+UJI TEKNIS DENGAN SUBSET LATIH. BUKAN HASIL FINAL PENELITIAN.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792649747.525697   23808 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\_python_version_support.py:242: FutureWarning: You are using a non-supported Python version (3.10.0). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.11, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792649753.628977   23808 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+[pure] tuning on <=340, clean validation 341-400
+[I 2026-10-22 13:15:57,342] A new study created in memory with name: no-name-4ce0dcc2-c086-4028-9749-3dcd2f6aa48b
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+I0000 00:00:1792649761.969992   23808 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[pure/trial0] epoch 1: loss=0.150250 val_loss=0.003940
+[pure/trial0] epoch 2: loss=0.005020 val_loss=0.003545
+[I 2026-10-22 13:16:24,041] Trial 0 finished with value: 0.0005847914819679062 and parameters: {'lr': 0.0005611516415334506, 'dropout': 0.4852142919229748, 'batch_size': 128, 'patience': 4}. Best is trial 0 with value: 0.0005847914819679062.
+[pure/trial1] epoch 1: loss=0.043228 val_loss=0.003604
+[pure/trial1] epoch 2: loss=0.004277 val_loss=0.003678
+[I 2026-10-22 13:16:46,292] Trial 1 finished with value: 0.0006804176751366224 and parameters: {'lr': 0.002510441004250463, 'dropout': 0.4901550131153326, 'batch_size': 128, 'patience': 3}. Best is trial 1 with value: 0.0006804176751366224.
+[smote] tuning on <=340, clean validation 341-400
+[I 2026-10-22 13:16:47,154] A new study created in memory with name: no-name-70f1dfe4-2379-4ef2-9a4a-9d4f82613616
+[smote/trial0] epoch 1: loss=0.486800 val_loss=0.191020
+[smote/trial0] epoch 2: loss=0.180493 val_loss=0.111531
+[I 2026-10-22 13:17:10,956] Trial 0 finished with value: 0.13198901920599052 and parameters: {'lr': 0.0005611516415334506, 'dropout': 0.4852142919229748, 'batch_size': 128, 'patience': 4}. Best is trial 0 with value: 0.13198901920599052.
+[smote/trial1] epoch 1: loss=0.236183 val_loss=0.110177
+[smote/trial1] epoch 2: loss=0.074168 val_loss=0.057544
+[I 2026-10-22 13:17:35,985] Trial 1 finished with value: 0.0619655124635828 and parameters: {'lr': 0.002510441004250463, 'dropout': 0.4901550131153326, 'batch_size': 128, 'patience': 3}. Best is trial 0 with value: 0.13198901920599052.
+[pure/fold1] selecting epoch using train<=340; validation 341-400
+[pure/fold1/epoch-selection] epoch 1: loss=0.054260 val_loss=0.003556
+[pure/fold1/epoch-selection] epoch 2: loss=0.006584 val_loss=0.003573
+[pure/fold1] refit on selected train<=400, epochs=1; untouched test 401-480
+[pure/fold1/refit] epoch 1: loss=0.045062
+[pure/fold1] metrics: {"average_precision": 0.0023673336749660935, "pr_auc_trapezoid": 0.0023032855987570166, "roc_auc": 0.5303508461780648, "precision": 0.0, "recall": 0.0, "f1": 0.0, "tn": 122935, "fp": 0, "fn": 251, "tp": 0, "n_samples": 123186, "n_fraud": 251, "condition": "pure", "fold": "fold1", "train_end": 400, "test_start": 401, "test_end": 480, "selected_epoch": 1, "n_train_original": 30000, "n_train_after_smote": 30000, "n_test": 123186, "fraud_test": 251, "profile": "smoke"}
+[smote/fold1] selecting epoch using train<=340; validation 341-400
+[smote/fold1/epoch-selection] epoch 1: loss=0.549714 val_loss=0.306846
+[smote/fold1/epoch-selection] epoch 2: loss=0.291554 val_loss=0.191636
+[smote/fold1] refit on selected train<=400, epochs=2; untouched test 401-480
+[smote/fold1/refit] epoch 1: loss=0.514656
+[smote/fold1/refit] epoch 2: loss=0.237869
+[smote/fold1] metrics: {"average_precision": 0.2458641843138772, "pr_auc_trapezoid": 0.24571871921223576, "roc_auc": 0.784489147165355, "precision": 0.015905192577576797, "recall": 0.4063745019920319, "f1": 0.030612244897959183, "tn": 116624, "fp": 6311, "fn": 149, "tp": 102, "n_samples": 123186, "n_fraud": 251, "condition": "smote", "fold": "fold1", "train_end": 400, "test_start": 401, "test_end": 480, "selected_epoch": 2, "n_train_original": 30000, "n_train_after_smote": 44974, "n_test": 123186, "fraud_test": 251, "profile": "smoke"}
+[pure/fold2] selecting epoch using train<=420; validation 421-480
+[pure/fold2/epoch-selection] epoch 1: loss=0.043322 val_loss=0.069953
+[pure/fold2/epoch-selection] epoch 2: loss=0.004476 val_loss=0.072426
+[pure/fold2] refit on selected train<=480, epochs=1; untouched test 481-560
+[pure/fold2/refit] epoch 1: loss=0.043262
+[pure/fold2] metrics: {"average_precision": 0.006252381509363377, "pr_auc_trapezoid": 0.00589603175954195, "roc_auc": 0.552329552665172, "precision": 0.0, "recall": 0.0, "f1": 0.0, "tn": 61826, "fp": 0, "fn": 260, "tp": 0, "n_samples": 62086, "n_fraud": 260, "condition": "pure", "fold": "fold2", "train_end": 480, "test_start": 481, "test_end": 560, "selected_epoch": 1, "n_train_original": 30000, "n_train_after_smote": 30000, "n_test": 62086, "fraud_test": 260, "profile": "smoke"}
+[smote/fold2] selecting epoch using train<=420; validation 421-480
+[smote/fold2/epoch-selection] epoch 1: loss=0.481035 val_loss=0.269588
+[smote/fold2/epoch-selection] epoch 2: loss=0.243289 val_loss=0.167692
+[smote/fold2] refit on selected train<=480, epochs=2; untouched test 481-560
+[smote/fold2/refit] epoch 1: loss=0.478056
+[smote/fold2/refit] epoch 2: loss=0.227084
+[smote/fold2] metrics: {"average_precision": 0.168217137827332, "pr_auc_trapezoid": 0.16771511298479783, "roc_auc": 0.7341288454695436, "precision": 0.028268551236749116, "recall": 0.4, "f1": 0.052805280528052806, "tn": 58251, "fp": 3575, "fn": 156, "tp": 104, "n_samples": 62086, "n_fraud": 260, "condition": "smote", "fold": "fold2", "train_end": 480, "test_start": 481, "test_end": 560, "selected_epoch": 2, "n_train_original": 30000, "n_train_after_smote": 44982, "n_test": 62086, "fraud_test": 260, "profile": "smoke"}
+[pure/fold3] selecting epoch using train<=500; validation 501-560
+[pure/fold3/epoch-selection] epoch 1: loss=0.043691 val_loss=0.032877
+[pure/fold3/epoch-selection] epoch 2: loss=0.004045 val_loss=0.033353
+[pure/fold3] refit on selected train<=560, epochs=1; untouched test 561-640
+[pure/fold3/refit] epoch 1: loss=0.043404
+[pure/fold3] metrics: {"average_precision": 0.007063328344688261, "pr_auc_trapezoid": 0.006770891105538161, "roc_auc": 0.5216828315696982, "precision": 0.0, "recall": 0.0, "f1": 0.0, "tn": 52858, "fp": 0, "fn": 261, "tp": 0, "n_samples": 53119, "n_fraud": 261, "condition": "pure", "fold": "fold3", "train_end": 560, "test_start": 561, "test_end": 640, "selected_epoch": 1, "n_train_original": 30000, "n_train_after_smote": 30000, "n_test": 53119, "fraud_test": 261, "profile": "smoke"}
+[smote/fold3] selecting epoch using train<=500; validation 501-560
+[smote/fold3/epoch-selection] epoch 1: loss=0.436091 val_loss=0.194785
+[smote/fold3/epoch-selection] epoch 2: loss=0.244065 val_loss=0.156608
+[smote/fold3] refit on selected train<=560, epochs=2; untouched test 561-640
+[smote/fold3/refit] epoch 1: loss=0.443057
+[smote/fold3/refit] epoch 2: loss=0.281615
+[smote/fold3] metrics: {"average_precision": 0.15460074618864467, "pr_auc_trapezoid": 0.1543848035827583, "roc_auc": 0.6622338038921312, "precision": 0.01607773851590106, "recall": 0.3486590038314176, "f1": 0.03073805100489782, "tn": 47289, "fp": 5569, "fn": 170, "tp": 91, "n_samples": 53119, "n_fraud": 261, "condition": "smote", "fold": "fold3", "train_end": 560, "test_start": 561, "test_end": 640, "selected_epoch": 2, "n_train_original": 30000, "n_train_after_smote": 44980, "n_test": 53119, "fraud_test": 261, "profile": "smoke"}
+[pure/final_holdout] selecting epoch using train<=580; validation 581-640
+[pure/final_holdout/epoch-selection] epoch 1: loss=0.045829 val_loss=0.041249
+[pure/final_holdout/epoch-selection] epoch 2: loss=0.006876 val_loss=0.041606
+[pure/final_holdout] refit on selected train<=640, epochs=1; untouched test 641-743
+[pure/final_holdout/refit] epoch 1: loss=0.044954
+[pure/final_holdout] metrics: {"average_precision": 0.017398075099342193, "pr_auc_trapezoid": 0.016309631215070057, "roc_auc": 0.5585223928214542, "precision": 0.0, "recall": 0.0, "f1": 0.0, "tn": 40216, "fp": 0, "fn": 342, "tp": 0, "n_samples": 40558, "n_fraud": 342, "condition": "pure", "fold": "final_holdout", "train_end": 640, "test_start": 641, "test_end": 743, "selected_epoch": 1, "n_train_original": 30000, "n_train_after_smote": 30000, "n_test": 40558, "fraud_test": 342, "profile": "smoke"}
+[smote/final_holdout] selecting epoch using train<=580; validation 581-640
+[smote/final_holdout/epoch-selection] epoch 1: loss=0.483859 val_loss=0.182817
+[smote/final_holdout/epoch-selection] epoch 2: loss=0.263635 val_loss=0.127917
+[smote/final_holdout] refit on selected train<=640, epochs=2; untouched test 641-743
+[smote/final_holdout/refit] epoch 1: loss=0.473831
+[smote/final_holdout/refit] epoch 2: loss=0.254358
+[smote/final_holdout] metrics: {"average_precision": 0.2965699038898237, "pr_auc_trapezoid": 0.2963291111510052, "roc_auc": 0.796153185081263, "precision": 0.051604366523321205, "recall": 0.45614035087719296, "f1": 0.09271916790490342, "tn": 37349, "fp": 2867, "fn": 186, "tp": 156, "n_samples": 40558, "n_fraud": 342, "condition": "smote", "fold": "final_holdout", "train_end": 640, "test_start": 641, "test_end": 743, "selected_epoch": 2, "n_train_original": 30000, "n_train_after_smote": 44967, "n_test": 40558, "fraud_test": 342, "profile": "smoke"}
+Completed smoke experiment: C:\Users\User\OneDrive\Dokumen\ChatGPT\PTAFELIX\results\smoke
+C:\Users\User\OneDrive\Dokumen\ChatGPT\PTAFELIX\results\smoke\laporan.html

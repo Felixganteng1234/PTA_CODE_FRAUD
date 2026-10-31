@@ -1,0 +1,38 @@
+test_chunk_size_does_not_change_results (test_data.DataTests) ... ok
+test_cross_period_context_is_allowed_but_assignment_uses_target (test_data.DataTests) ... ok
+test_empty_csv_and_no_eligible_account_fail (test_data.DataTests) ... ok
+test_existing_output_is_not_overwritten (test_data.DataTests) ... ok
+test_fold_endpoints_match_proposal (test_data.DataTests) ... ok
+test_identical_rows_are_preserved_and_short_accounts_excluded (test_data.DataTests) ... ok
+test_inclusive_windows_ties_account_boundaries_and_label (test_data.DataTests) ... ok
+test_loader_requires_complete_metadata_and_correct_shapes (test_data.DataTests) ... ok
+test_malformed_schema_and_values_fail_before_casting (test_data.DataTests) ... ok
+test_pickle_backed_array_is_rejected (test_data.DataTests) ... ok
+test_cluster_bootstrap_keeps_whole_group (test_metrics.BootstrapTests) ... ok
+test_invalid_bootstrap_arguments (test_metrics.BootstrapTests) ... ok
+test_no_fraud_bootstrap_reports_all_ap_skipped (test_metrics.BootstrapTests) ... ok
+test_paired_predictions_produce_exact_zero_delta (test_metrics.BootstrapTests) ... ok
+test_reproducibility_and_delta_direction (test_metrics.BootstrapTests) ... ok
+test_writes_png_artifacts (test_metrics.PlotTests) ... ok
+test_pooled_f1_is_not_mean_fold_f1 (test_metrics.PooledMetricsTests) ... ok
+test_undefined_fold_ap_does_not_corrupt_summary (test_metrics.PooledMetricsTests) ... ok
+test_known_confusion_and_threshold_equality (test_metrics.PredictionMetricsTests) ... ok
+test_rejects_invalid_inputs (test_metrics.PredictionMetricsTests) ... ok
+test_single_class_and_zero_division (test_metrics.PredictionMetricsTests) ... ok
+test_refuses_conflicting_bootstrap_csv_json (test_report.ReportTests) ... ok
+test_refuses_conflicting_dataset (test_report.ReportTests) ... ok
+test_refuses_incomplete_status_without_writing_report (test_report.ReportTests) ... ok
+test_refuses_missing_model_metric (test_report.ReportTests) ... ok
+test_smoke_report_discloses_scope_and_uses_recorded_values (test_report.ReportTests) ... ok
+test_full_selection_keeps_every_sequence_until_inclusive_boundary (test_training.TrainingPreprocessingTests) ... ok
+test_insufficient_early_fraud_is_not_repaired_using_validation (test_training.TrainingPreprocessingTests) ... ok
+test_pure_training_does_not_resample (test_training.TrainingPreprocessingTests) ... ok
+test_scaler_uses_training_only_and_keeps_one_hot_unchanged (test_training.TrainingPreprocessingTests) ... ok
+test_smoke_selection_reproducible_and_excludes_future (test_training.TrainingPreprocessingTests) ... ok
+test_smote_preserves_original_sequences_and_has_exact_ratio (test_training.TrainingPreprocessingTests) ... ok
+test_smote_rejects_too_few_minority_examples (test_training.TrainingPreprocessingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 4.765s
+
+OK

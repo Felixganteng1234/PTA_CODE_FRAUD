@@ -1,0 +1,562 @@
+[
+  {
+    "path": "fraud_lstm/__init__.py",
+    "bytes": 80
+  },
+  {
+    "path": "fraud_lstm/__main__.py",
+    "bytes": 5014
+  },
+  {
+    "path": "fraud_lstm/data.py",
+    "bytes": 9505
+  },
+  {
+    "path": "fraud_lstm/diagnostics.py",
+    "bytes": 15674
+  },
+  {
+    "path": "fraud_lstm/metrics.py",
+    "bytes": 11916
+  },
+  {
+    "path": "fraud_lstm/report.py",
+    "bytes": 24228
+  },
+  {
+    "path": "fraud_lstm/training.py",
+    "bytes": 43344
+  },
+  {
+    "path": "configs/full.json",
+    "bytes": 282
+  },
+  {
+    "path": "configs/full_single_trial.json",
+    "bytes": 378
+  },
+  {
+    "path": "configs/smoke.json",
+    "bytes": 333
+  },
+  {
+    "path": "tests/test_cli.py",
+    "bytes": 7285
+  },
+  {
+    "path": "tests/test_data.py",
+    "bytes": 9890
+  },
+  {
+    "path": "tests/test_diagnostics.py",
+    "bytes": 8792
+  },
+  {
+    "path": "tests/test_metrics.py",
+    "bytes": 6474
+  },
+  {
+    "path": "tests/test_report.py",
+    "bytes": 7490
+  },
+  {
+    "path": "tests/test_training.py",
+    "bytes": 5268
+  },
+  {
+    "path": "notebooks/01_alur_penelitian.ipynb",
+    "bytes": 6329
+  },
+  {
+    "path": "vscode_steps/00_verifikasi.py",
+    "bytes": 959
+  },
+  {
+    "path": "vscode_steps/01_diagnosis_data.py",
+    "bytes": 1362
+  },
+  {
+    "path": "vscode_steps/02_optuna_satu_trial.py",
+    "bytes": 1614
+  },
+  {
+    "path": "vscode_steps/03_latih_dan_evaluasi.py",
+    "bytes": 978
+  },
+  {
+    "path": "vscode_steps/04_lihat_hasil.py",
+    "bytes": 1407
+  },
+  {
+    "path": "vscode_steps/_common.py",
+    "bytes": 1283
+  },
+  {
+    "path": "vscode_steps/README.md",
+    "bytes": 1611
+  },
+  {
+    "path": ".vscode/launch.json",
+    "bytes": 1291
+  },
+  {
+    "path": "data/raw/PS.csv",
+    "bytes": 493534783
+  },
+  {
+    "path": "data/processed/account_id.npy",
+    "bytes": 12722524
+  },
+  {
+    "path": "data/processed/account_names.npy",
+    "bytes": 25166412
+  },
+  {
+    "path": "data/processed/dataset_audit.csv",
+    "bytes": 464
+  },
+  {
+    "path": "data/processed/dataset_summary.json",
+    "bytes": 1084
+  },
+  {
+    "path": "data/processed/metadata.json",
+    "bytes": 1084
+  },
+  {
+    "path": "data/processed/target_row.npy",
+    "bytes": 25444920
+  },
+  {
+    "path": "data/processed/target_step.npy",
+    "bytes": 6361326
+  },
+  {
+    "path": "data/processed/X.npy",
+    "bytes": 381672008
+  },
+  {
+    "path": "data/processed/y.npy",
+    "bytes": 3180727
+  },
+  {
+    "path": "results/smoke/bootstrap_uncertainty.csv",
+    "bytes": 1368
+  },
+  {
+    "path": "results/smoke/bootstrap_uncertainty.json",
+    "bytes": 3119
+  },
+  {
+    "path": "results/smoke/figures.json",
+    "bytes": 160
+  },
+  {
+    "path": "results/smoke/laporan.html",
+    "bytes": 18192
+  },
+  {
+    "path": "results/smoke/LAPORAN_HASIL.md",
+    "bytes": 11617
+  },
+  {
+    "path": "results/smoke/metrics.csv",
+    "bytes": 1633
+  },
+  {
+    "path": "results/smoke/models/pure/final_holdout/epoch_selection_history.csv",
+    "bytes": 110
+  },
+  {
+    "path": "results/smoke/models/pure/final_holdout/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/pure/final_holdout/refit_history.csv",
+    "bytes": 33
+  },
+  {
+    "path": "results/smoke/models/pure/final_holdout/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/pure/final_holdout/training_record.json",
+    "bytes": 1442
+  },
+  {
+    "path": "results/smoke/models/pure/fold1/epoch_selection_history.csv",
+    "bytes": 111
+  },
+  {
+    "path": "results/smoke/models/pure/fold1/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/pure/fold1/refit_history.csv",
+    "bytes": 35
+  },
+  {
+    "path": "results/smoke/models/pure/fold1/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/pure/fold1/training_record.json",
+    "bytes": 1448
+  },
+  {
+    "path": "results/smoke/models/pure/fold2/epoch_selection_history.csv",
+    "bytes": 107
+  },
+  {
+    "path": "results/smoke/models/pure/fold2/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/pure/fold2/refit_history.csv",
+    "bytes": 35
+  },
+  {
+    "path": "results/smoke/models/pure/fold2/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/pure/fold2/training_record.json",
+    "bytes": 1413
+  },
+  {
+    "path": "results/smoke/models/pure/fold3/epoch_selection_history.csv",
+    "bytes": 108
+  },
+  {
+    "path": "results/smoke/models/pure/fold3/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/pure/fold3/refit_history.csv",
+    "bytes": 35
+  },
+  {
+    "path": "results/smoke/models/pure/fold3/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/pure/fold3/training_record.json",
+    "bytes": 1445
+  },
+  {
+    "path": "results/smoke/models/smote/final_holdout/epoch_selection_history.csv",
+    "bytes": 105
+  },
+  {
+    "path": "results/smoke/models/smote/final_holdout/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/smote/final_holdout/refit_history.csv",
+    "bytes": 57
+  },
+  {
+    "path": "results/smoke/models/smote/final_holdout/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/smote/final_holdout/training_record.json",
+    "bytes": 1451
+  },
+  {
+    "path": "results/smoke/models/smote/fold1/epoch_selection_history.csv",
+    "bytes": 105
+  },
+  {
+    "path": "results/smoke/models/smote/fold1/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/smote/fold1/refit_history.csv",
+    "bytes": 56
+  },
+  {
+    "path": "results/smoke/models/smote/fold1/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/smote/fold1/training_record.json",
+    "bytes": 1457
+  },
+  {
+    "path": "results/smoke/models/smote/fold2/epoch_selection_history.csv",
+    "bytes": 106
+  },
+  {
+    "path": "results/smoke/models/smote/fold2/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/smote/fold2/refit_history.csv",
+    "bytes": 57
+  },
+  {
+    "path": "results/smoke/models/smote/fold2/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/smote/fold2/training_record.json",
+    "bytes": 1436
+  },
+  {
+    "path": "results/smoke/models/smote/fold3/epoch_selection_history.csv",
+    "bytes": 103
+  },
+  {
+    "path": "results/smoke/models/smote/fold3/model.keras",
+    "bytes": 416421
+  },
+  {
+    "path": "results/smoke/models/smote/fold3/refit_history.csv",
+    "bytes": 58
+  },
+  {
+    "path": "results/smoke/models/smote/fold3/scaler.joblib",
+    "bytes": 719
+  },
+  {
+    "path": "results/smoke/models/smote/fold3/training_record.json",
+    "bytes": 1452
+  },
+  {
+    "path": "results/smoke/plots/confusion_1_pure.png",
+    "bytes": 24775
+  },
+  {
+    "path": "results/smoke/plots/confusion_2_smote.png",
+    "bytes": 27807
+  },
+  {
+    "path": "results/smoke/plots/precision_recall.png",
+    "bytes": 46621
+  },
+  {
+    "path": "results/smoke/pooled_summary.csv",
+    "bytes": 513
+  },
+  {
+    "path": "results/smoke/pooled_summary.json",
+    "bytes": 980
+  },
+  {
+    "path": "results/smoke/predictions/pure_final_holdout.npz",
+    "bytes": 424256
+  },
+  {
+    "path": "results/smoke/predictions/pure_fold1.npz",
+    "bytes": 1237582
+  },
+  {
+    "path": "results/smoke/predictions/pure_fold2.npz",
+    "bytes": 640683
+  },
+  {
+    "path": "results/smoke/predictions/pure_fold3.npz",
+    "bytes": 551726
+  },
+  {
+    "path": "results/smoke/predictions/smote_final_holdout.npz",
+    "bytes": 441653
+  },
+  {
+    "path": "results/smoke/predictions/smote_fold1.npz",
+    "bytes": 1287229
+  },
+  {
+    "path": "results/smoke/predictions/smote_fold2.npz",
+    "bytes": 665494
+  },
+  {
+    "path": "results/smoke/predictions/smote_fold3.npz",
+    "bytes": 574612
+  },
+  {
+    "path": "results/smoke/run_manifest.json",
+    "bytes": 3398
+  },
+  {
+    "path": "results/smoke/selection/final_holdout_indices.npy",
+    "bytes": 240128
+  },
+  {
+    "path": "results/smoke/selection/fold1_indices.npy",
+    "bytes": 240128
+  },
+  {
+    "path": "results/smoke/selection/fold2_indices.npy",
+    "bytes": 240128
+  },
+  {
+    "path": "results/smoke/selection/fold3_indices.npy",
+    "bytes": 240128
+  },
+  {
+    "path": "results/smoke/selection/optuna_train_indices.npy",
+    "bytes": 240128
+  },
+  {
+    "path": "results/smoke/selection_counts.json",
+    "bytes": 4131
+  },
+  {
+    "path": "results/smoke/tuning/pure/best_params.json",
+    "bytes": 271
+  },
+  {
+    "path": "results/smoke/tuning/pure/data_counts.json",
+    "bytes": 454
+  },
+  {
+    "path": "results/smoke/tuning/pure/trial_000_history.csv",
+    "bytes": 110
+  },
+  {
+    "path": "results/smoke/tuning/pure/trial_001_history.csv",
+    "bytes": 112
+  },
+  {
+    "path": "results/smoke/tuning/pure/trials.csv",
+    "bytes": 642
+  },
+  {
+    "path": "results/smoke/tuning/smote/best_params.json",
+    "bytes": 270
+  },
+  {
+    "path": "results/smoke/tuning/smote/data_counts.json",
+    "bytes": 457
+  },
+  {
+    "path": "results/smoke/tuning/smote/trial_000_history.csv",
+    "bytes": 107
+  },
+  {
+    "path": "results/smoke/tuning/smote/trial_001_history.csv",
+    "bytes": 106
+  },
+  {
+    "path": "results/smoke/tuning/smote/trials.csv",
+    "bytes": 637
+  },
+  {
+    "path": "results/smoke/verification.json",
+    "bytes": 4755
+  },
+  {
+    "path": "README.md",
+    "bytes": 11095
+  },
+  {
+    "path": "HASIL_PENGERJAAN.md",
+    "bytes": 3779
+  },
+  {
+    "path": "PERBANDINGAN_KODE_LAMA_DAN_BARU.md",
+    "bytes": 3208
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 231
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 101
+  },
+  {
+    "path": "PERSIAPAN.bat",
+    "bytes": 352
+  },
+  {
+    "path": "JALANKAN_UJI_CEPAT.bat",
+    "bytes": 448
+  },
+  {
+    "path": "JALANKAN_PENELITIAN.bat",
+    "bytes": 406
+  },
+  {
+    "path": "JALANKAN_HEMAT_1_TRIAL.bat",
+    "bytes": 685
+  },
+  {
+    "path": "scripts/make_notebook.py",
+    "bytes": 4447
+  },
+  {
+    "path": "scripts/verify_results.py",
+    "bytes": 3647
+  },
+  {
+    "path": "scripts/package_project.py",
+    "bytes": 3108
+  },
+  {
+    "path": "referensi_kode_lama/best_params_pure.json",
+    "bytes": 111
+  },
+  {
+    "path": "referensi_kode_lama/best_params_smote.json",
+    "bytes": 111
+  },
+  {
+    "path": "referensi_kode_lama/evaluation_results.csv",
+    "bytes": 1200
+  },
+  {
+    "path": "referensi_kode_lama/full.md",
+    "bytes": 38325
+  },
+  {
+    "path": "referensi_kode_lama/ringkasan_transaksi_sebelum_sesudah_smote.csv",
+    "bytes": 600
+  },
+  {
+    "path": "referensi_kode_lama/sequance_fold.py",
+    "bytes": 13219
+  },
+  {
+    "path": "referensi_kode_lama/tahap1.py",
+    "bytes": 4440
+  },
+  {
+    "path": "referensi_kode_lama/tahap2.py",
+    "bytes": 3259
+  },
+  {
+    "path": "referensi_kode_lama/tahap3.py",
+    "bytes": 4586
+  },
+  {
+    "path": "referensi_kode_lama/tahap3b.py",
+    "bytes": 4248
+  },
+  {
+    "path": "referensi_kode_lama/tahap4.py",
+    "bytes": 2941
+  },
+  {
+    "path": "referensi_kode_lama/tahap5.py",
+    "bytes": 5153
+  },
+  {
+    "path": "referensi_kode_lama/tahap6.py",
+    "bytes": 7016
+  },
+  {
+    "path": "referensi_kode_lama/tahap7.py",
+    "bytes": 5161
+  },
+  {
+    "path": "validasi/tests.log",
+    "bytes": 2902
+  },
+  {
+    "path": "validasi/smoke.log",
+    "bytes": 11046
+  }
+]

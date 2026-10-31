@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "source_file": "PS.csv",
+  "source_sha256": "16910f90577b0d981bf8ff289714510bb89bc71bff7d3f220f024e287e4eea6b",
+  "raw_transactions": 6362620,
+  "raw_fraud": 8213,
+  "customer_transactions": 4211125,
+  "merchant_transactions": 2151495,
+  "merchant_fraud": 0,
+  "customer_accounts": 571961,
+  "eligible_accounts": 382603,
+  "sequences": 3180599,
+  "sequence_fraud": 2463,
+  "fraud_coverage": 0.29989041763058566,
+  "sequence_length": 3,
+  "features": [
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "type_CASH_IN",
+    "type_CASH_OUT",
+    "type_DEBIT",
+    "type_PAYMENT",
+    "type_TRANSFER"
+  ],
+  "numeric_features": [
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest"
+  ],
+  "sort_keys": [
+    "nameDest",
+    "step",
+    "original_row_id"
+  ],
+  "label_rule": "isFraud(T3), inclusive",
+  "min_target_step": 1,
+  "max_target_step": 743,
+  "duplicate_policy": "preserve_rows",
+  "status": "complete"
+}

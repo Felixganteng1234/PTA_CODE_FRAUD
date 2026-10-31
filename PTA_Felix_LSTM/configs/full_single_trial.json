@@ -1,0 +1,16 @@
+{
+  "profile": "full",
+  "hyperparameter_policy": "single_prespecified_trial",
+  "seed": 42,
+  "n_trials": 1,
+  "max_epochs": 30,
+  "bootstrap_iterations": 1000,
+  "threshold": 0.5,
+  "cpu_threads": 4,
+  "steps_per_execution": 1,
+  "smote_ratio": 0.5,
+  "smote_k": 5,
+  "dataset": "data/raw/PS.csv",
+  "data_dir": "data/processed",
+  "output_dir": "results/full_single_trial"
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+data/raw/*.csv
+data/processed/*.npy
+results/
+source_original/
+output/
+tmp/

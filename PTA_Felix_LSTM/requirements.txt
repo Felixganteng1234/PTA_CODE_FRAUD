@@ -1,0 +1,10 @@
+# Versi yang tersedia dan diuji pada komputer ini (Python 3.10, Windows CPU).
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+imbalanced-learn==0.14.2
+tensorflow==2.21.0
+keras==3.12.2
+optuna==5.0.0
+matplotlib==3.10.9
+joblib>=1.4,<2
